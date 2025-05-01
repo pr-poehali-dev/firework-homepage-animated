@@ -9,14 +9,15 @@ const Index = () => {
       <Fireworks />
       
       {/* Hero Section */}
+      {/* Hero Section */}
       <div className="relative z-10 container mx-auto px-4 min-h-screen flex items-center justify-center py-48 md:py-60">
         <div className="text-center">
-          <h1 className="text-7xl font-bold mb-10 text-white animate-fade-in">Праздничное агентство</h1>
-          <p className="text-3xl text-gray-300 mb-16 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "200ms" }}>
+          <h1 className="text-4xl md:text-7xl font-bold mb-6 md:mb-10 text-white animate-fade-in">Праздничное агентство</h1>
+          <p className="text-xl md:text-3xl text-gray-300 mb-10 md:mb-16 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "200ms" }}>
             Организация незабываемых праздников и мероприятий любой сложности
           </p>
-          <div className="mt-16 animate-fade-in" style={{ animationDelay: "400ms" }}>
-            <Button className="bg-primary text-primary-foreground px-10 py-6 text-2xl rounded-lg font-medium hover-scale">
+          <div className="mt-10 md:mt-16 animate-fade-in" style={{ animationDelay: "400ms" }}>
+            <Button className="bg-primary text-primary-foreground px-6 md:px-10 py-4 md:py-6 text-lg md:text-2xl rounded-lg font-medium hover-scale">
               Заказать праздник
             </Button>
           </div>
