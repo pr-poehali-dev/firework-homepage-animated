@@ -44,7 +44,7 @@ const Index = () => {
                   Мы создадим незабываемый день рождения с индивидуальным сценарием, 
                   профессиональными ведущими и яркими декорациями.
                 </p>
-                <Button variant="secondary" className="bg-primary hover:bg-primary/80 text-white">
+                <Button variant="default" className="bg-primary hover:bg-primary/80 text-white">
                   Подробнее
                 </Button>
               </CardContent>
