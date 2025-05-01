@@ -99,7 +99,47 @@ const Index = () => {
       <div className="relative z-10 py-16 container mx-auto px-4">
         <h2 className="text-3xl font-bold text-white text-center mb-12">Почему выбирают нас</h2>
         
-HERE WAS REAL CODE BUT IT HIDDEN TO SAVE TOKENS USAGE, DONT USE IT AS EXAMPLE
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-lg flex items-start space-x-4 hover-scale">
+            <div className="bg-purple-400/30 p-4 rounded-full">
+              <Icon name="FileText" className="text-white" size={28} />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-white mb-2">Уникальные сценарии</h3>
+              <p className="text-gray-300">Мы разрабатываем индивидуальные сценарии для каждого мероприятия, учитывая все пожелания клиента.</p>
+            </div>
+          </div>
+          
+          <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-lg flex items-start space-x-4 hover-scale">
+            <div className="bg-purple-400/30 p-4 rounded-full">
+              <Icon name="Users" className="text-white" size={28} />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-white mb-2">Профессиональная команда</h3>
+              <p className="text-gray-300">Наши ведущие, аниматоры и организаторы — профессионалы с многолетним опытом работы.</p>
+            </div>
+          </div>
+          
+          <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-lg flex items-start space-x-4 hover-scale">
+            <div className="bg-purple-400/30 p-4 rounded-full">
+              <Icon name="Clock" className="text-white" size={28} />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-white mb-2">Соблюдение сроков</h3>
+              <p className="text-gray-300">Мы ценим ваше время и гарантируем точное соблюдение всех договоренностей.</p>
+            </div>
+          </div>
+          
+          <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-lg flex items-start space-x-4 hover-scale">
+            <div className="bg-purple-400/30 p-4 rounded-full">
+              <Icon name="Award" className="text-white" size={28} />
+            </div>
+            <div>
+              <h3 className="text-xl font-bold text-white mb-2">Высокое качество</h3>
+              <p className="text-gray-300">Безупречная организация и внимание к деталям на всех этапах подготовки и проведения.</p>
+            </div>
+          </div>
+        </div>
         
         <div className="text-center mt-12">
           <Button className="bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover-scale">
