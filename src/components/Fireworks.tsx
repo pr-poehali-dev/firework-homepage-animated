@@ -21,8 +21,10 @@ interface Particle {
 }
 
 const Fireworks = () => {
+
   const [fireworks, setFireworks] = useState<Firework[]>([]);
-  const colors = ["#FF5252", "#FFD740", "#64FFDA", "#448AFF", "#E040FB", "#FF4081"];
+  const colors = ["#FFFFFF"]; // Белый цвет для всех частиц
+
 
   useEffect(() => {
     // Create a new firework every 1-2 seconds
