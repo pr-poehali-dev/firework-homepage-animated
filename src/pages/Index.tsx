@@ -44,7 +44,7 @@ const Index = () => {
                   Мы создадим незабываемый день рождения с индивидуальным сценарием, 
                   профессиональными ведущими и яркими декорациями.
                 </p>
-                <Button variant="default" className="bg-purple-500 hover:bg-purple-600 text-white">
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white">
                   Подробнее
                 </Button>
               </CardContent>
@@ -65,7 +65,7 @@ const Index = () => {
                   От камерных церемоний до масштабных торжеств — мы продумаем каждую деталь, 
                   чтобы ваш день был идеальным.
                 </p>
-                <Button variant="outline" className="border-white text-white hover:bg-white/20">
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white">
                   Подробнее
                 </Button>
               </CardContent>
@@ -86,7 +86,7 @@ const Index = () => {
                   Повысьте командный дух и отметьте успехи компании с нашими уникальными сценариями 
                   для корпоративных праздников.
                 </p>
-                <Button variant="outline" className="border-white text-white hover:bg-white/20">
+                <Button className="bg-purple-600 hover:bg-purple-700 text-white">
                   Подробнее
                 </Button>
               </CardContent>
