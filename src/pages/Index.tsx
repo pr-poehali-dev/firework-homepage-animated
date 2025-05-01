@@ -29,70 +29,70 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-white text-center mb-12">Наши услуги</h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale">
-              <CardHeader className="text-center">
-                <CardTitle className="flex items-center justify-center gap-2">
-                  <Icon name="Cake" size={24} />
-                  <span>Дни рождения</span>
-                </CardTitle>
-                <CardDescription className="text-gray-300">
-                  Организация ярких и запоминающихся дней рождения
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="mb-4">
-                  Мы создадим незабываемый день рождения с индивидуальным сценарием, 
-                  профессиональными ведущими и яркими декорациями.
-                </p>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
-                  Подробнее
-                </Button>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale">
-              <CardHeader className="text-center">
-                <CardTitle className="flex items-center justify-center gap-2">
-                  <Icon name="Heart" size={24} />
-                  <span>Свадьбы</span>
-                </CardTitle>
-                <CardDescription className="text-gray-300">
-                  Организация свадебных торжеств любой сложности
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="mb-4">
-                  От камерных церемоний до масштабных торжеств — мы продумаем каждую деталь, 
-                  чтобы ваш день был идеальным.
-                </p>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
-                  Подробнее
-                </Button>
-              </CardContent>
-            </Card>
-            
-            <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale">
-              <CardHeader className="text-center">
-                <CardTitle className="flex items-center justify-center gap-2">
-                  <Icon name="Building" size={24} />
-                  <span>Корпоративы</span>
-                </CardTitle>
-                <CardDescription className="text-gray-300">
-                  Организация корпоративных мероприятий и тимбилдингов
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="mb-4">
-                  Повысьте командный дух и отметьте успехи компании с нашими уникальными сценариями 
-                  для корпоративных праздников.
-                </p>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">
-                  Подробнее
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale h-full flex flex-col">
+          <CardHeader className="text-center">
+            <CardTitle className="flex items-center justify-center gap-2">
+              <Icon name="Cake" size={24} />
+              <span>Дни рождения</span>
+            </CardTitle>
+            <CardDescription className="text-gray-300">
+              Организация ярких и запоминающихся дней рождения
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-grow flex flex-col justify-between">
+            <p className="mb-8">
+              Мы создадим незабываемый день рождения с индивидуальным сценарием, 
+              профессиональными ведущими и яркими декорациями.
+            </p>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full mt-auto">
+              Подробнее
+            </Button>
+          </CardContent>
+        </Card>
+        
+        <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale h-full flex flex-col">
+          <CardHeader className="text-center">
+            <CardTitle className="flex items-center justify-center gap-2">
+              <Icon name="Heart" size={24} />
+              <span>Свадьбы</span>
+            </CardTitle>
+            <CardDescription className="text-gray-300">
+              Организация свадебных торжеств любой сложности
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-grow flex flex-col justify-between">
+            <p className="mb-8">
+              От камерных церемоний до масштабных торжеств — мы продумаем каждую деталь, 
+              чтобы ваш день был идеальным.
+            </p>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full mt-auto">
+              Подробнее
+            </Button>
+          </CardContent>
+        </Card>
+        
+        <Card className="bg-white/10 backdrop-blur-sm border-none text-white hover-scale h-full flex flex-col">
+          <CardHeader className="text-center">
+            <CardTitle className="flex items-center justify-center gap-2">
+              <Icon name="Building" size={24} />
+              <span>Корпоративы</span>
+            </CardTitle>
+            <CardDescription className="text-gray-300">
+              Организация корпоративных мероприятий и тимбилдингов
+            </CardDescription>
+          </CardHeader>
+          <CardContent className="flex-grow flex flex-col justify-between">
+            <p className="mb-8">
+              Повысьте командный дух и отметьте успехи компании с нашими уникальными сценариями 
+              для корпоративных праздников.
+            </p>
+            <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full mt-auto">
+              Подробнее
+            </Button>
+          </CardContent>
+        </Card>
+      </div>
         </div>
       </div>
       
